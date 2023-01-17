@@ -14,3 +14,41 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2E2F42;
 }
+
+.menu-link:hover,
+.menu-link:focus {
+    color: #404BBF;
+}
+
+.contact-list {
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+.contact-list:hover,
+.contact-list:focus {
+    color: #404BBF;
+}
+
+.modal-btn {
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+background-color: #4D5AE5;
+color: #FFFFFF;  
+cursor: pointer;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+background-color: #404BBF;
+}
