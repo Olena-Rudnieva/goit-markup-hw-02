@@ -1,7 +1,9 @@
 :root {
     --primary-font: 'Roboto', sans-serif;
-    --secondary-font: 'Raleway', sans-serif;
-    --primary-text-color: #2E2F42;
+    --secondary-font: 'Raleway', sans-serif;    
+    --primary-text-color-theme-light: #2E2F42;
+    --secondary-text-color-theme-light: #434455;    
+    --primary-text-color-theme-dark: #FFFFFF;
     --accent-color: #404BBF
 }
 
@@ -25,7 +27,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--primary-text-color);
+    color: var(--primary-text-color-theme-light);
 }
 
 .menu-link:hover,
@@ -39,7 +41,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--primary-text-color);
+    color: var(--secondary-text-color-theme-light);
 }
 
 .contact-list-link:hover,
