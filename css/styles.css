@@ -1,3 +1,10 @@
+:root {
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --primary-text-color: #2E2F42;
+    --accent-color: #404BBF
+}
+
 .list {
     list-style: none;
 }
@@ -6,49 +13,53 @@
     text-decoration: none;
 }
 
+body {
+    font-family: var(--primary-font);
+}
+
+
+/* ==================Components========================= */
+
 .menu-link {
-font-family: 'Roboto', sans-serif;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #2E2F42;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
 }
 
 .menu-link:hover,
 .menu-link:focus {
-    color: #404BBF;
+    color: var(--accent-color);
 }
 
-.contact-list-item {
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color:#434455;
+.contact-list-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
 }
 
-.contact-list-item:hover,
-.contact-list-item:focus {
-    color: #404BBF;
+.contact-list-link:hover,
+.contact-list-link:focus {
+    color: var(--accent-color);
 }
 
 .modal-btn {
-font-family: 'Roboto', sans-serif;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-display: flex;
-align-items: center;
-letter-spacing: 0.04em;
-background-color: #4D5AE5;
-color: #FFFFFF;
-cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    cursor: pointer;
 }
 
 .modal-btn:hover,
 .modal-btn:focus {
-background-color: #404BBF;
+    background-color: var(--accent-color);
 }
