@@ -68,6 +68,17 @@ body {
 
 /* ====================== Header ======================= */
 
+.logo-header-link {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
 .menu-link {
     font-weight: 500;
     font-size: 16px;
@@ -117,3 +128,22 @@ body {
 /* ============================ Products =================== */
 
 /* ============================ /Products ================== */
+
+/* =============================== Team ==================== */
+
+/* =============================== /Team =================== */
+
+/* ============================= Footer ==================== */
+
+/* =========================== /Footer ===================== */
+
+.logo-footer-link {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
