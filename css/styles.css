@@ -6,6 +6,7 @@
     --primary-text-color-theme-dark: #FFFFFF;
     --accent-color: #404BBF;
     --button-color: #4D5AE5;
+    --secondary-button-color: #F4F4FD
 
 }
 
@@ -31,7 +32,7 @@ body {
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
-    background-color: #4D5AE5;
+    background-color: var(--button-color);
     color: #FFFFFF;
     cursor: pointer;
 }
@@ -168,4 +169,16 @@ body {
     text-align: center;
     letter-spacing: 0.04em;
     color: var(--button-color);
+}
+
+
+.modal-btn.portfolio {
+    background-color: var(--secondary-button-color);
+    color: var(--button-color)
+}
+
+.modal-btn.portfolio:hover,
+.modal-btn.portfolio:focus {
+    background-color: var(--accent-color);
+    color: #FFFFFF
 }
