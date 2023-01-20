@@ -1,6 +1,5 @@
 :root {
-    --primary-font: 'Roboto', sans-serif;
-    --secondary-font: 'Raleway', sans-serif;    
+    --primary-font: 'Roboto', sans-serif;     
     --primary-text-color-theme-light: #2E2F42;
     --secondary-text-color-theme-light: #434455;    
     --primary-text-color-theme-dark: #FFFFFF;
@@ -191,5 +190,5 @@ body {
 .filter-btn:hover,
 .filter-btn:focus {
     background-color: var(--accent-color);
-    color: #FFFFFF
+    color: var(--primary-text-color-theme-dark)
 }
